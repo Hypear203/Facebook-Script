@@ -1,4 +1,4 @@
-var person = prompt("请输入", "");
+var person = prompt("Vui lòng nhập", "");
 var url = person.match(/.+/g);
 for (var k = 0; k < url.length; k++) {
     (function(k) {
